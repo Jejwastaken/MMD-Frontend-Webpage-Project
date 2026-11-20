@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="search.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- navigation -->
+        <nav class="navigation transparent-nav">
+            <div class="menu-container">
+                <ul>
+                    <li><a href="recipe-detail.html">Home</a></li>
+                    <li><a href="search.html">Recipes</a></li>
+                    <li><a href="">About</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- search + filter -->
+        <form class="recipe-banner">
+            <div class="recipe-title">
+                <h4>Full search</h4>
+                <label>
+                    <img src="search-interface-symbol 2.png" alt="" class="icon">
+                    <input type="search" name="s" placeholder="Search">
+                </label>
+                <p>Let's go already!</p>
+            </div>
+
+            <div class="ingredients">
+                <h5>Search filter : category</h5>
+                <ul>
+                    <li><label><input type="radio" name="category" value="seafood">Seafood</label></li>
+                    <li><label><input type="radio" name="category" value="beef-pork" checked>Beef/Pork</label></li>
+                    <li><label><input type="radio" name="category" value="chicken">Chicken</label></li>
+                    <li><label><input type="radio" name="category" value="snacks">Snacks</label></li>
+                </ul>
+                <ul>
+                    <li><label><input type="radio" name="category" value="pasta">Pasta</label></li>
+                    <li><label><input type="radio" name="category" value="vegetarian">Vegetarian</label></li>
+                    <li><label><input type="radio" name="category" value="dessert">Dessert</label></li>
+                </ul>
+            </div>
+        </form>
+
+        <!-- results -->
+        <section class="search-results">
+            <article>
+                <small>Category: <span class="seafood">Seafood</span></small>
+                <h2><a href="recipe-detail.html">Search result one</a></h2>
+                <p>This will be the excerpt from WordPress, and you can control several things here. Like the length of the text that is shown and multiple other things. Now i just writing stuff to fill it out, and the final three dots indicate there is more text ...</p>
+            </article>
+
+            <article>
+                <small>Category: <span class="chicken">Chicken</span></small>
+                <h2><a href="recipe-detail.html">Search result two</a></h2>
+                <p>This will be the excerpt from WordPress, and you can control several things here. Like the length of the text that is shown and multiple other things. Now i just writing stuff to fill it out, and the final three dots indicate there is more text ...</p>
+            </article>
+        </section>
+
+        <!-- footer -->
+        <footer class="footer">
+            <div>
+                <a href="#">
+                    <img src="uit_youtube.png" alt="YouTube" class="footer-icon">
+                    Youtube
+                </a> <!-- Footer link stuff -->
+                <a href="#">
+                    <img src="lets-icons_insta-light.png" alt="Instagram" class="footer-icon">
+                    Instagram
+                </a>
+                <a href="#">
+                    <img src="circum_facebook.png" alt="Facebook" class="footer-icon">
+                    Facebook
+                </a>
+            </div>
+
+            <div>
+                <a href="#">Home</a>
+                <a href="#">Recipe</a>
+                <a href="#">About</a>
+            </div>
+
+            <div class="footer-divider"></div>
+
+            <div class="footer_links">
+                <a class="spotify" href="https://open.spotify.com/track/4gRA0i5sxx3jAhHaVjPnUN?si=aaba07b09223416c" target="_blank">https://open.spotify.com/track/4gRA0i5sxx3jAhHaVjPnUN?si=aaba07b09223416c</a>
+                <a class="spotify" href="https://open.spotify.com/album/6Xuu2z00jxRPZei4IJ9neK" target="_blank">https://open.spotify.com/album/6Xuu2z00jxRPZei4IJ9neK</a>
+                <div class="renewable">
+                    <img src="hugeicons_renewable-energy.png" alt="Renewable Energy">
+                    <span>Etsy is powered by 100% <br>renewable electricity.</span>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
